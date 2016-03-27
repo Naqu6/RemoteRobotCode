@@ -1,4 +1,10 @@
 from networktables import NetworkTable
 
 class Robot:
-	def __init__
+	table = None
+
+	def __init__(self, ip):
+		NetworkTable.setIPAddress(ip)
+		NetworkTable.setClientMode()
+		NetworkTable.initialize()
+		self.table = NetworkTable
