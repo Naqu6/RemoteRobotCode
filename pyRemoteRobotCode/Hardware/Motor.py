@@ -5,7 +5,6 @@
 
 class Talon:
 
-	robot = None
 	table = None
 	port = None
 
@@ -27,7 +26,6 @@ class Talon:
 
 class TalonSRX:
 
-	robot = None
 	table = None
 	port = None
 
@@ -49,7 +47,6 @@ class TalonSRX:
 
 class Victor:
 
-	robot = None
 	table = None
 	port = None
 

@@ -13,9 +13,9 @@ public class MotorController {
 	private HashMap<Integer, Victor> victorValues = new HashMap<Integer, Victor>();
 
 	
-	private NetworkTable talonTable = NetworkTable.getTable("Talon");
-	private NetworkTable talonSRXTable = NetworkTable.getTable("TalonSRX");
-	private NetworkTable victorTable = NetworkTable.getTable("Victor");
+	private NetworkTable talonTable = NetworkTable.getTable(CONSTANTS.TALON_TABLE_NAME);
+	private NetworkTable talonSRXTable = NetworkTable.getTable(CONSTANTS.TALONSRX_TABLE_NAME);
+	private NetworkTable victorTable = NetworkTable.getTable(CONSTANTS.VICTOR_TABLE_NAME);
 	
 	
 	
